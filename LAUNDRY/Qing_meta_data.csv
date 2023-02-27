@@ -1,0 +1,76 @@
+DB,Variable,Datatype,Units,Min,Max,Scale,Offset,Missing,Description
+-------------------------------------------------------------------
+
+// source would go into 'globals' declaration for the db
+
+// source?
+CrisisDB_agricultural_data.csv,Year,Number,Year,NA,NA,NA,NA,"A year; - indicates BCE"
+CrisisDB_agricultural_data.csv,Agricultural population,Number,'people',0,NA,1000,0,"1000 people"
+CrisisDB_agricultural_data.csv,Agricultural production,Number,'people',0,NA,1000,0,"1000 people"
+CrisisDB_agricultural_data.csv,Arable land,'mu',0,NA,1000,0,"1000 mu"
+CrisisDB_agricultural_data.csv,Arable land per farmer,'mu',0,NA,1,0,"mu"
+CrisisDB_agricultural_data.csv,Gross grain shared per person,'catties',0,NA,1,0,"catties"
+CrisisDB_agricultural_data.csv,Net grain shared per person,'catties',0,NA,1,0,"catties"
+CrisisDB_agricultural_data.csv,Surplus,'catties',0,NA,1,0,"catties??"
+
+// source??
+qing_milexpense.xlsx,Conflict,Unicode_string,NA,NA,NA,NA,NA,'',"the name of the conflict, rebellion, etc."
+qing_milexpense.xlsx,Period,YearRange,Year,NA,NA,NA,'',"A year or range of years"
+qing_milexpense.xlsx,,Expenditure,Number,"silver taels",0,NA,1e6,0,"Millions of silver taels"
+
+// Source Description	Value
+// Text Citation: 李隆生《清代的国际贸易：白银流入、货币危机和晚清工业化》，台湾秀威科技股份有效公司2010年版，第148-155页。
+qing_silver_inflow.xlsx,year,Year,Year,NA,NA,NA,NA,"A year; - indicates BCE"
+qing_silver_inflow.xlsx,silver_inflow,Number,"silver taels",0,NA,1e6,0,"Millions of silver taels??"
+qing_silver_inflow.xlsx,silver_stock,Number,"silver taels",0,NA,1e6,0,"Millions of silver taels??"
+
+
+// Source Description	Value
+// Downloaded:	https://www.clio-infra.eu/IndicatorsPerCountry/China_TotalPopulation_TerritorialRef_1949_2012_CCode_156.xlsx
+// Text Citation: Fink-Jensen, Jonathan (2015). Total Population. http://hdl.handle.net/10622/SNETZV, accessed via the Clio Infra website.
+ClioInfra_China_TotalPopulation.xlsx,Country Code,Number,NA,1,200?,NA,NA,"Numeric country code (from where?  range?)"
+ClioInfra_China_TotalPopulation.xlsx,Country Name,String,NA,NA,NA,NA,'',"Name of country (from what standard list?)"
+ClioInfra_China_TotalPopulation.xlsx,Indicator,String,NA,NA,NA,NA,'',"A variable name (total population here)"
+ClioInfra_China_TotalPopulation.xlsx,Year,Number,Year,NA,NA,NA,NA,"A year; - indicates BCE"
+ClioInfra_China_TotalPopulation.xlsx,Data,Number,"people",NA,1000,0,'',"A number of people" // note '' for empty, note specific scale and units for "data" in this file
+
+
+// Source Description	Value
+// Downloaded:	https://www.clio-infra.eu/IndicatorsPerCountry/China_GDPperCapita_TerritorialRef_1949_2012_CCode_156.xlsx
+// Text Citation:	Bolt, Jutta and Jan Luiten van Zanden (2015). GDP per Capita. http://hdl.handle.net/10622/8FCYOX, accessed via the Clio Infra website.
+ClioInfra_China_GDPperCapita.xlsx,Country Code,Number,NA,1,200?,NA,NA,"Numeric country code (from where?  range?)"
+ClioInfra_China_GDPperCapita.xlsx,Country Name,String,NA,NA,NA,NA,'',"Name of country (from what standard list?)"
+ClioInfra_China_GDPperCapita.xlsx,Indicator,String,NA,NA,NA,NA,'',"A variable name (GPD per Captia)"
+ClioInfra_China_GDPperCapita.xlsx,Year,Number,Year,NA,NA,NA,NA,"A year; - indicates BCE"
+ClioInfra_China_GDPperCapita.xlsx,Data,Number,"2009 dollars?",0,NA,1,0,'',"productivity per person measured in 2009 dollars?" // note '' for empty, note specific scale and units for "data" in this file
+
+// source sheet1
+Downloaded: Chinese Historical Climate Database Qing Dynasty Drought Series https://www1.ncdc.noaa.gov/pub/data/paleo/historical/asia/china/reaches2020drought-category-sites.txt
+// these are on sheet2 and sheet3 but there are no data there; are they the source for the 'drought' column combined?
+Text: https://www.ncei.noaa.gov/pub/data/paleo/historical/asia/china/reaches2020drought.txt // sheet2
+Text: https://www.ncei.noaa.gov/pub/data/paleo/historical/asia/china/reaches2020drought-severe.txt // sheet3
+REACHES.climate.data.xlsx,Country,String,NA,NA,NA,NA,'',"Name of country (from what standard list?)"
+REACHES.climate.data.xlsx,Year,Number,Year,NA,NA,NA,NA,"A year; - indicates BCE"
+REACHES.climate.data.xlsx,drought,Number,"reports",0,NA,NA,NA,"numbers of reports from different provinces"
+REACHES.climate.data.xlsx,locust,Number,"reports",0,NA,NA,NA,"numbers of reports from different provinces"
+REACHES.climate.data.xlsx,Socioec.turmoil,Number,"reports",0,NA,NA,NA,"numbers of reports from different provinces"
+REACHES.climate.data.xlsx,crop.failure,Number,"reports",0,NA,NA,NA,"numbers of reports from different provinces"
+REACHES.climate.data.xlsx,famine,Number,"reports",0,NA,NA,NA,"numbers of reports from different provinces"
+
+
+// source REACHES Chinese Historical Climate Database (but no link)
+qing.disease.xlsx,PolID,Unicode_string,NA,NA,NA,NA,'',"Polity ID used in Seshat https://seshat.info"
+qing.disease.xlsx,date.from,Number,Year,NA,NA,NA,NA,"A year; - indicates BCE"
+qing.disease.xlsx,date.to,Number,Year,NA,NA,NA,NA,"A year; - indicates BCE"
+qing.disease.xlsx,long,Number,Degrees,-180,180,NA,NA,"Longitude in degrees"
+qing.disease.xlsx,lat,Number,Degrees,-90,90,NA,NA,"Latitude in degrees"
+qing.disease.xlsx,elevation,Number,Meters,0,5000,NA,NA,NA,"Elevation from mean sea level in meters"
+qing.disease.xlsx,Event,Number,NA,NA,NA,NA,NA,"Some sort of event id"
+qing.disease.xlsx,Variable,String,NA,NA,NA,NA,'',"A variable name (Disease Outbreak here)"
+qing.disease.xlsx,Main.Category,Number,NA,NA,NA,NA,NA,"Some sort of category id"
+qing.disease.xlsx,Sub.Category,Enumeration,[Pestilence, Peculiar Epidemics,Uncertain Pestilence,Malaria,Pox,],NA,NA,NA,NA,'Pestilence',"A disease type"
+qing.disease.xlsx,Magnitude,Enumeration,[Uncertain,Heavy,Heavy-Multiple Times,Moderate,No description],NA,NA,NA,NA,'No description',"Disease impact magnitude"
+// Note that the seshat values (Influenza, Cholera, Plague, Diptheria) should probably be under Sub.Category, not Magnitude
+qing.disease.xlsx,Duration,Enumeration,[Uncertain,1-10 Days,60-90 Days,Over 90 Days,No description,Influenza, Cholera, Plague, Diptheria],NA,NA,NA,NA,'No description',"Disease impact duration"
+qing.disease.xlsx,Source,Enumeration,[Chinese Historical Climate Database,Seshat coding],NA,NA,NA,NA,'Chinese Historical Climate Database',"Source of the data"
+

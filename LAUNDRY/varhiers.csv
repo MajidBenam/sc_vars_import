@@ -1,0 +1,32 @@
+Section	Subsection	Variable
+Social Complexity Variables	Social Scale	Population
+Economy Variables	Taxation	Total_tax
+Economy Variables	State Finances	Total_revenue
+Economy Variables	State Finances	Total_expenditure
+Economy Variables	Productivity	Total_economic_output
+Economy Variables	Taxation	Tariff_and_transit
+Economy Variables	Taxation	Salt_tax
+Economy Variables	State Fiscal Health	Revenue_real
+Economy Variables	State Fiscal Health	Revenue_official
+Economy Variables	Wages and Costs	Other_incomes
+Economy Variables	Wages and Costs	Misc_incomes
+Economy Variables	Taxation	Maritime_custom
+Economy Variables	Taxation	Lijin
+Economy Variables	Productivity	Land_yield
+Economy Variables	Taxation	Land_taxes_collected
+Economy Variables	Taxation	Diding_taxes
+Economy Variables	State Fiscal Health	Balance
+Economy Variables	Wages and Costs	Worker_wage
+Economy Variables	Wages and Costs	Wages
+Warfare Variables	Internal Conflicts	Taiping_rebellion
+Economy Variables	Productivity	Shares_of_world_gdp
+Economy Variables	Wages and Costs	Rate_of_return
+Economy Variables	Productivity	Rate_of_gdp_per_capita_growth
+Social Mobility	Advanced Degrees	Jishi_degrees_awarded
+Economy Variables	Productivity	Gdp_total
+Economy Variables	Productivity	Gdp_per_capita
+Economy Variables	Productivity	Gdp_growth_rate
+Well Being	Biological Well-Being	Famine_event
+Social Mobility	Advanced Degrees	Examination
+Well Being	Biological Well-Being	Disease_event
+Economy Variables	Wages and Costs	Annual_wages

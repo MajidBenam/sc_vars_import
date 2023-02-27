@@ -1,0 +1,25 @@
+ALL_MY_CHOICES_GENERAL ={
+'degree_of_centralization_CHOICES': ['loose', 'confederated state', 'unitary state', 'nominal', 'confederate state', 'quasi-polity', 'suspected unknown', 'none', 'unknown', 'confederation', 'polity', 'NO_VALUE_ON_WIKI', 'nominal allegiance', 'unitary', ],
+
+'supra_polity_relations_CHOICES':  ['none', 'vassalage', 'alliance', 'nominal allegiance', 'suspected unknown', 'nominal', 'personal union', 'NO_VALUE_ON_WIKI', 'unknown', 'Nominal', 'Alliance', 'uncoded',],
+
+'language_CHOICES': ['Pashto', 'Persian', 'Greek', 'Bactrian', 'Sogdian', 'Pahlavi', 'Brahmi', 'Kharoshthi', 'Tocharian', 'Chinese', 'archaic Chinese', 'Xiangxi', 'Qiandong', 'Chuanqiandian', 'Hmong-Mien', 'Hmongic', 'Middle Chinese', 'Jurchen', 'Khitan', 'Xianbei', 'Manchu language', 'Mongolian language', 'Atanque', 'Shuar', 'Arabic', 'suspected unknown', 'NO_VALUE_ON_WIKI', 'Demotic', 'Ancient Egyptian', 'Late Egyptian', 'demotic Egyptian', 'Castilian Spanish', 'Chuukese', 'French', 'Langues dOil', 'Occitan', 'Latin', 'Old Frankish', 'Germanic', 'Gallic', 'Gaulish', 'English', 'Akan', 'Twi', 'Doric Greek', 'Minoan', 'Early Greek', 'Eteocretan', 'Old Hawaiian', 'Hawaiian', 'Iban', 'Sanskrit', 'Old Javanese', 'Middle Javanese', 'Javanese', 'Canaanite', 'Aramaic', 'Hebrew', 'Kannada', 'Urdu', 'A’chik', 'Prakrit', 'Telugu', 'Tamil', 'Akkadian', 'Sumerian', 'Amorite', 'Old Babylonian', 'Mesopotamian Religions', 'Old Persian', 'Elamite', 'Egyptian', 'Old Elamite', 'Mongolian', 'native Iranian languages', 'Turkic', 'Turkish', 'Babylonian', 'Hurrian', 'Proto-Elamite', 'Old Norse', 'Italian', 'Middle Japanese', 'Old Japanese', 'Late Old Japanese', 'Japanese', 'Early Modern Japanese', 'Old Turkic', 'Iranian', 'Old Khmer', 'Mon', 'Tai', 'Khmer', 'Pali', 'Phoenician', 'Berber', 'Spanish', 'Portuguese', 'Bambara', 'Mande', 'Songhay', 'Russian', 'Georgian', 'Armenian', 'Kereid', 'Tatar', 'Naimans', 'Khalkha', 'Rouran', 'Xiongnu', 'Oirat', 'Zapotec', 'Icelandic', 'Aymara', 'Puquina', 'Quechua', 'Orokaiva', 'unknown', 'Sindhi', 'Punjabi', 'Sakha (Yakut)', 'Merotic', 'Coptic', 'Thai', 'Proto-Indo-European language', 'Nesite', 'Luwian', 'Hattic', 'Hittite', 'Old Assyrian dialect of Akkadian', 'Indo-European language', 'Lydian', 'Ottoman Turkish', 'Phrygian', 'Miami Illinois', 'Cayuga', 'Mohawk', 'Oneida', 'Onondaga', 'Seneca', 'Tuscarora', 'Middle Mongolian', 'Ancient Iranian', 'Chagatai Turkish', 'Sabaic', 'Mainic', 'Qatabanic', 'Hadramawtic', 'Old Arabic'],
+
+'language_genus_CHOICES': ['NO_VALUE_ON_WIKI', 'Afro-Asiatic', 'Indo-European',
+       'suspected unknown'],
+
+# Done Merged (language_genus and linguistic_family)
+'linguistic_family_CHOICES': ['Indo-European', 'Sino-Tibetan', 'NO_VALUE_ON_WIKI', 'Tungusic', 'Altaic', 'Mongolic', 'Chibcha', 'Chicham', 'Afro-Asiatic', 'Oceanic-Austronesian', 'Celtic', 'Niger-Congo', 'Kwa', 'Hamito-Semitic', 'Austronesian', 'Malayo-Polynesian', 'Semitic', 'Indo-Iranian', 'Dravidian', 'isolate language', 'West Semetic', 'isolate', 'suspected unknown', 'language isolate', 'none', 'Germanic', 'Japonic', 'Turkic', 'Austro-Asiatic, Mon-Khmer', 'Austro-Asiatic', 'unknown', 'Mande', 'Songhay', 'Oghuz', 'Kartvelian', 'Manchu-Tungusic', 'Proto-Mongolic', 'Otomanguean', 'Proto-Otomanguean', 'Mixe-Zoquean', 'Aymaran', 'Quechuan', 'Papuan Languages', 'Tai-Kadai', 'Algonquian', 'Iroquois', 'Iranian'],
+
+# Done Merged
+'religion_genus_CHOICES': ['Zoroastrianism', 'Graeco-Bactrian Religions', 'Buddhism', 'Christianity', 'Islam', 'Mongolian Shamanism', 'Hittite Religions', 'Ismaili', 'Lydian Religions', 'Chinese State Religion', 'Egyptian Religions', 'Ancient Iranian Religions', 'Hellenistic Religions', 'Hephthalite Religions', 'Manichaeism', 'Ancient East Asian Religion', 'Jain Traditions', 'Xiongnu Religions', 'Roman State Religions', 'Shinto', 'Phrygian Religions', 'Mesopotamian Religions', 'Hinduism', 'Ancient Javanese Religions', 'Confucianism',],
+
+# Done Merged
+'religion_family_CHOICES': ['Saivist Traditions', 'Assyrian Religions', 'Republican Religions', 'Imperial Confucian Traditions', 'Shii', 'Bhagavatist Traditions', 'Sunni', 'Vedist Traditions', 'Saivist', 'Islam', 'Chinese Folk Religion', 'Semitic', 'Vaisnava Traditions', 'Ptolemaic Religion', 'Vedic Traditions', 'Japanese Buddhism', 'Orthodox', 'Vaishnava Traditions', 'Shang Religion', 'Atenism', 'Mahayana', 'suspected unknown', 'Japanese State Shinto', 'Saiva Traditions', 'Sufi', 'Chinese Buddhist Traditions', 'Arian', 'Shia', 'Catholic', 'Western Zhou Religion', 'Imperial Cult', 'Theravada', 'Seleucid Religion',],
+
+# Done Merged
+'religion_CHOICES': ['Islam', 'Shadhil', 'Karrami', 'Hanafi', 'Mevlevi', 'Ismaili', 'Shafii', 'Shia', 'Twelver', 'Byzantine Orthodox', 'Bektasi', 'NO_VALUE_ON_WIKI', 'Sunni', 'Roman Catholic', ],
+
+'relationship_to_preceding_entity_CHOICES': ['continuity', 'elite migration', 'cultural assimilation', 'continuation', 'indigenous revolt', 'replacement', 'population migration', 'hostile', 'disruption/continuity', 'continuity/discontinuity', 'NO_VALUE_ON_WIKI', 'suspected unknown', 'vassalage', 'not applicable',],
+}
+

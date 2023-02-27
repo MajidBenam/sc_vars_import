@@ -1,0 +1,5 @@
+INSERT INTO crisisdb_agricultural_population (polity_id, year_from, year_to, agricultural_population, finalized, tag, name, created_date) VALUES (1, 1600, 1600, 97200, True, 'TRS', 'agricultural_population','2022-09-12');
+INSERT INTO crisisdb_agricultural_population (polity_id, year_from, year_to, agricultural_population, finalized, tag, name, created_date) VALUES (1, 1766, 1766, 170000, True, 'TRS', 'agricultural_population','2022-09-12');
+INSERT INTO crisisdb_agricultural_population (polity_id, year_from, year_to, agricultural_population, finalized, tag, name, created_date) VALUES (1, 1790, 1790, 255000, True, 'TRS', 'agricultural_population','2022-09-12');
+INSERT INTO crisisdb_agricultural_population (polity_id, year_from, year_to, agricultural_population, finalized, tag, name, created_date) VALUES (2, 1812, 1812, 297500, True, 'TRS', 'agricultural_population','2022-09-12');
+INSERT INTO crisisdb_agricultural_population (polity_id, year_from, year_to, agricultural_population, finalized, tag, name, created_date) VALUES (2, 1887, 1887, 340000, True, 'TRS', 'agricultural_population','2022-09-12');

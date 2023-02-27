@@ -1,0 +1,17 @@
+DELETE FROM crisisdb_agricultural_population;
+DELETE FROM crisisdb_arable_land;
+DELETE FROM crisisdb_arable_land_per_farmer;
+DELETE FROM crisisdb_crop_failure_event;
+DELETE FROM crisisdb_disease_outbreak;
+DELETE FROM crisisdb_drought_event;
+DELETE FROM crisisdb_famine_event;
+DELETE FROM crisisdb_gdp_per_capita;
+DELETE FROM crisisdb_gross_grain_shared_per_agricultural_population;
+DELETE FROM crisisdb_locust_event;
+DELETE FROM crisisdb_military_expense;
+DELETE FROM crisisdb_net_grain_shared_per_agricultural_population;
+DELETE FROM crisisdb_silver_inflow;
+DELETE FROM crisisdb_silver_stock;
+DELETE FROM crisisdb_socioeconomic_turmoil_event;
+DELETE FROM crisisdb_surplus;
+DELETE FROM crisisdb_total_population;

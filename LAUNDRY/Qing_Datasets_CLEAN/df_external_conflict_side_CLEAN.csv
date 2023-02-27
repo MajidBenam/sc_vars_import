@@ -1,0 +1,3 @@
+polity_id,conflict_id,year_from,year_to,expenditure,leader,casualty,note
+Iran,Iran_Iraq_WAR,1980,1988,120000,Khomeini,11000,noteA
+Iraq,Iran_Iraq_WAR,1980,1988,322000,Saddam,7000,noteB

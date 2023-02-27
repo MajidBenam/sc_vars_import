@@ -1,0 +1,412 @@
+{
+  "agricultural_population": {
+    "notes": "Notes for the Variable agricultural_population are missing!",
+    "main_desc": "No Explanations.",
+    "main_desc_source": "",
+    "cols": 1,
+    "section": "Economy Variables",
+    "subsection": "Productivity",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "agricultural_population",
+      "var_exp": "No Explanations.",
+      "units": "People",
+      "min": 0,
+      "max": null,
+      "scale": 1000,
+      "var_exp_source": null
+    }
+  },
+  "arable_land": {
+    "notes": "Notes for the Variable arable_land are missing!",
+    "main_desc": "No Explanations.",
+    "main_desc_source": "",
+    "cols": 1,
+    "section": "Economy Variables",
+    "subsection": "Productivity",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "arable_land",
+      "var_exp": "No Explanations.",
+      "units": "mu?",
+      "min": null,
+      "max": null,
+      "scale": 1000,
+      "var_exp_source": null
+    }
+  },
+  "arable_land_per_farmer": {
+    "notes": "Notes for the Variable arable_land_per_farmer are missing!",
+    "main_desc": "No Explanations.",
+    "main_desc_source": "",
+    "cols": 1,
+    "section": "Economy Variables",
+    "subsection": "Productivity",
+    "null_meaning": "The value is not available.",
+    "needsSeshatCommon": true,
+
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "arable_land_per_farmer",
+      "var_exp": "No Explanations.",
+      "units": "mu?",
+      "min": null,
+      "max": null,
+      "scale": 1,
+      "var_exp_source": null
+    }
+  },
+  "gross_grain_shared_per_agricultural_population": {
+    "notes": "Notes for the Variable gross_grain_shared_per_agricultural_population are missing!",
+    "main_desc": "No Explanations.",
+    "main_desc_source": "",
+    "cols": 1,
+    "section": "Economy Variables",
+    "subsection": "Productivity",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "gross_grain_shared_per_agricultural_population",
+      "var_exp": "No Explanations.",
+      "units": "(catties per capita)",
+      "min": null,
+      "max": null,
+      "scale": 1,
+      "var_exp_source": null
+    }
+  },
+  "net_grain_shared_per_agricultural_population": {
+    "notes": "Notes for the Variable net_grain_shared_per_agricultural_population are missing!",
+    "main_desc": "No Explanations.",
+    "main_desc_source": "",
+    "cols": 1,
+    "section": "Economy Variables",
+    "subsection": "Productivity",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "net_grain_shared_per_agricultural_population",
+      "var_exp": "No Explanations.",
+      "units": "(catties per capita)",
+      "min": null,
+      "max": null,
+      "scale": 1,
+      "var_exp_source": null
+    }
+  },
+  "surplus": {
+    "notes": "Notes for the Variable surplus are missing!",
+    "main_desc": "No Explanations.",
+    "main_desc_source": "",
+    "cols": 1,
+    "section": "Economy Variables",
+    "subsection": "Productivity",
+    "null_meaning": "The value is not available.",
+    "needsSeshatCommon": true,
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "surplus",
+      "var_exp": "No Explanations.",
+      "units": "(catties per capita)",
+      "min": null,
+      "max": null,
+      "scale": 1,
+      "var_exp_source": null
+    }
+  },
+  "military_expense": {
+    "notes": "Not sure about Section and Subsection.",
+    "main_desc": "Main Descriptions for the Variable military_expense are missing!",
+    "main_desc_source": "https://en.wikipedia.org/wiki/Disease_outbreak",
+    "cols": 2,
+    "section": "Economy Variables",
+    "subsection": "State Finances",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["CharField", "TextInput"],
+      "varname": "conflict",
+      "var_exp": "The name of the conflict",
+      "var_exp_source": null
+    },
+    "col2": {
+      "dtype": ["DecimalField", "NumberInput"],
+      "varname": "expenditure",
+      "var_exp": "The military expenses in millions silver taels.",
+      "units": "millions silver taels",
+      "min": null,
+      "max": null,
+      "scale": 1,
+      "decimal_places": 15,
+      "max_digits": 20,
+      "var_exp_source": null
+    }
+  },
+  "silver_inflow": {
+    "notes": "Needs suoervision on the units and scale.",
+    "main_desc": "Silver inflow in Millions of silver taels??",
+    "main_desc_source": "",
+    "cols": 1,
+    "section": "Economy Variables",
+    "subsection": "State Finances",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "silver_inflow",
+      "var_exp": "Silver inflow in Millions of silver taels??",
+      "units": "Millions of silver taels??",
+      "min": null,
+      "max": null,
+      "scale": 1000000,
+      "var_exp_source": null
+    }
+  },
+  "silver_stock": {
+    "notes": "Needs suoervision on the units and scale.",
+    "main_desc": "Silver stock in Millions of silver taels??",
+    "main_desc_source": "",
+    "cols": 1,
+    "section": "Economy Variables",
+    "subsection": "State Finances",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "silver_stock",
+      "var_exp": "Silver stock in Millions of silver taels??",
+      "units": "Millions of silver taels??",
+      "min": null,
+      "max": null,
+      "scale": 1000000,
+      "var_exp_source": null
+    }
+  },
+  "total_population": {
+    "notes": "Note that the population values are scaled.",
+    "main_desc": "Total population or simply population, of a given area is the total number of people in that area at a given time.",
+    "main_desc_source": "",
+    "cols": 1,
+    "section": "Social Complexity Variables",
+    "subsection": "Social Scale",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "total_population",
+      "var_exp": "The total population of a country (or a polity).",
+      "units": "People",
+      "min": 0,
+      "max": null,
+      "scale": 1000,
+      "var_exp_source": null
+    }
+  },
+  "gdp_per_capita": {
+    "notes": "The exact year based on which the value of Dollar is taken into account is not clear.",
+    "main_desc": "The Gross Domestic Product per capita, or GDP per capita, is a measure of a country's economic output that accounts for its number of people. It divides the country's gross domestic product by its total population.",
+    "main_desc_source": "https://www.thebalance.com/gdp-per-capita-formula-u-s-compared-to-highest-and-lowest-3305848",
+    "cols": 1,
+    "section": "Economy Variables",
+    "subsection": "Productivity",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["DecimalField", "NumberInput"],
+      "varname": "gdp_per_capita",
+      "var_exp": "The Gross Domestic Product per capita, or GDP per capita, is a measure of a country's economic output that accounts for its number of people. It divides the country's gross domestic product by its total population.",
+      "units": "Dollars (in 2009?)",
+      "min": null,
+      "max": null,
+      "scale": 1,
+      "decimal_places": 15,
+      "max_digits": 20,
+      "var_exp_source": "https://www.thebalance.com/gdp-per-capita-formula-u-s-compared-to-highest-and-lowest-3305848"
+    }
+  },
+  "drought_events": {
+    "notes": "Notes for the Variable drought_events are missing!",
+    "main_desc": "number of geographic sites indicating drought",
+    "main_desc_source": "https://www1.ncdc.noaa.gov/pub/data/paleo/historical/asia/china/reaches2020drought-category-sites.txt",
+    "cols": 1,
+    "section": "Well Being",
+    "subsection": "Biological Well-Being",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "drought_events",
+      "var_exp": "number of geographic sites indicating drought",
+      "units": "Numbers",
+      "min": 0,
+      "max": null,
+      "scale": 1,
+      "var_exp_source": null
+    }
+  },
+  "locust_events": {
+    "notes": "Notes for the Variable locust_events are missing!",
+    "main_desc": "number of geographic sites indicating locusts",
+    "main_desc_source": "https://www1.ncdc.noaa.gov/pub/data/paleo/historical/asia/china/reaches2020drought-category-sites.txt",
+    "cols": 1,
+    "section": "Well Being",
+    "subsection": "Biological Well-Being",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "locust_events",
+      "var_exp": "number of geographic sites indicating locusts",
+      "units": "Numbers",
+      "min": 0,
+      "max": null,
+      "scale": 1,
+      "var_exp_source": null
+    }
+  },
+  "socioeconomic_turmoil_events": {
+    "notes": "Notes for the Variable socioeconomic_turmoil_events are missing!",
+    "main_desc": "number of geographic sites indicating socioeconomic turmoil",
+    "main_desc_source": "https://www1.ncdc.noaa.gov/pub/data/paleo/historical/asia/china/reaches2020drought-category-sites.txt",
+    "cols": 1,
+    "section": "Well Being",
+    "subsection": "Biological Well-Being",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "socioeconomic_turmoil_events",
+      "var_exp": "number of geographic sites indicating socioeconomic turmoil",
+      "units": "Numbers",
+      "min": 0,
+      "max": null,
+      "scale": 1,
+      "var_exp_source": null
+    }
+  },
+  "crop_failure_events": {
+    "notes": "Notes for the Variable crop_failure_events are missing!",
+    "main_desc": "number of geographic sites indicating crop failure",
+    "main_desc_source": "https://www1.ncdc.noaa.gov/pub/data/paleo/historical/asia/china/reaches2020drought-category-sites.txt",
+    "cols": 1,
+    "section": "Well Being",
+    "subsection": "Biological Well-Being",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "crop_failure_events",
+      "var_exp": "number of geographic sites indicating crop failure",
+      "units": "Numbers",
+      "min": 0,
+      "max": null,
+      "scale": 1,
+      "var_exp_source": null
+    }
+  },
+  "famine_events": {
+    "notes": "Notes for the Variable famine_events are missing!",
+    "main_desc": "number of geographic sites indicating famine",
+    "main_desc_source": "https://www1.ncdc.noaa.gov/pub/data/paleo/historical/asia/china/reaches2020drought-category-sites.txt",
+    "cols": 1,
+    "section": "Well Being",
+    "subsection": "Biological Well-Being",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["IntegerField", "NumberInput"],
+      "varname": "famine_events",
+      "var_exp": "number of geographic sites indicating famine",
+      "units": "Numbers",
+      "min": 0,
+      "max": null,
+      "scale": 1,
+      "var_exp_source": null
+    }
+  },
+  "disease_outbreak": {
+    "notes": "Notes for the Variable disease_outbreak are missing!",
+    "main_desc": "A sudden increase in occurrences of a disease when cases are in excess of normal expectancy for the location or season.",
+    "main_desc_source": "https://en.wikipedia.org/wiki/Disease_outbreak",
+    "cols": 6,
+    "section": "Well Being",
+    "subsection": "Biological Well-Being",
+    "null_meaning": "The value is not available.",
+    "col1": {
+      "dtype": ["DecimalField", "NumberInput"],
+      "varname": "longitude",
+      "var_exp": "The longitude (in degrees) of the place where the disease was spread.",
+      "units": "Degrees",
+      "min": -180,
+      "max": 180,
+      "scale": 1,
+      "decimal_places": 15,
+      "max_digits": 20,
+      "var_exp_source": null
+    },
+    "col2": {
+      "dtype": ["DecimalField", "NumberInput"],
+      "varname": "latitude",
+      "var_exp": "The latitude (in degrees) of the place where the disease was spread.",
+      "units": "Degrees",
+      "min": -180,
+      "max": 180,
+      "scale": 1,
+      "decimal_places": 15,
+      "max_digits": 20,
+      "var_exp_source": null
+    },
+    "col3": {
+      "dtype": ["DecimalField", "NumberInput"],
+      "varname": "elevation",
+      "var_exp": "Elevation from mean sea level (in meters) of the place where the disease was spread.",
+      "units": "Meters",
+      "min": 0,
+      "max": 5000,
+      "scale": 1,
+      "decimal_places": 15,
+      "max_digits": 20,
+      "var_exp_source": null
+    },
+    "col4": {
+      "dtype": ["CharField", "Select"],
+      "varname": "sub_category",
+      "var_exp": "The category of the disease.",
+      "var_exp_source": null,
+      "choices": [
+        "Peculiar Epidemics",
+        "Pestilence",
+        "Miasm",
+        "Pox",
+        "Uncertain Pestilence",
+        "Dysentery",
+        "Malaria",
+        "Influenza",
+        "Cholera",
+        "Diptheria",
+        "Plague"
+      ]
+    },
+    "col5": {
+      "dtype": ["CharField", "Select"],
+      "varname": "magnitude",
+      "var_exp": "How heavy the disease was.",
+      "var_exp_source": null,
+      "choices": [
+        "Uncertain",
+        "Light",
+        "Heavy",
+        "No description",
+        "Heavy- Multiple Times",
+        "No Happening",
+        "Moderate"
+      ]
+    },
+    "col6": {
+      "dtype": ["CharField", "Select"],
+      "varname": "duration",
+      "var_exp": "How long the disease lasted.",
+      "var_exp_source": null,
+      "choices": [
+        "No description",
+        "Over 90 Days",
+        "Uncertain",
+        "30-60 Days",
+        "1-10 Days",
+        "60-90 Days"
+      ]
+    }
+  }
+}

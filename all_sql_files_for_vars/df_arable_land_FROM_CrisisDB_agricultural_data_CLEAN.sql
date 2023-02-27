@@ -1,0 +1,5 @@
+INSERT INTO crisisdb_arable_land (polity_id, year_from, year_to, arable_land, finalized, tag, name, created_date) VALUES (1, 1600, 1600, 725464, True, 'TRS', 'arable_land','2022-09-12');
+INSERT INTO crisisdb_arable_land (polity_id, year_from, year_to, arable_land, finalized, tag, name, created_date) VALUES (1, 1766, 1766, 1036109, True, 'TRS', 'arable_land','2022-09-12');
+INSERT INTO crisisdb_arable_land (polity_id, year_from, year_to, arable_land, finalized, tag, name, created_date) VALUES (1, 1790, 1790, 1009354, True, 'TRS', 'arable_land','2022-09-12');
+INSERT INTO crisisdb_arable_land (polity_id, year_from, year_to, arable_land, finalized, tag, name, created_date) VALUES (2, 1812, 1812, 1050436, True, 'TRS', 'arable_land','2022-09-12');
+INSERT INTO crisisdb_arable_land (polity_id, year_from, year_to, arable_land, finalized, tag, name, created_date) VALUES (2, 1887, 1887, 1125960, True, 'TRS', 'arable_land','2022-09-12');

@@ -1,0 +1,5 @@
+INSERT INTO crisisdb_total_population (polity_id, year_from, year_to, total_population, finalized, tag, name, created_date) VALUES (1, 1600, 1600, 120000, True, 'TRS', 'total_population','2022-09-12');
+INSERT INTO crisisdb_total_population (polity_id, year_from, year_to, total_population, finalized, tag, name, created_date) VALUES (1, 1766, 1766, 200000, True, 'TRS', 'total_population','2022-09-12');
+INSERT INTO crisisdb_total_population (polity_id, year_from, year_to, total_population, finalized, tag, name, created_date) VALUES (1, 1790, 1790, 300000, True, 'TRS', 'total_population','2022-09-12');
+INSERT INTO crisisdb_total_population (polity_id, year_from, year_to, total_population, finalized, tag, name, created_date) VALUES (2, 1812, 1812, 350000, True, 'TRS', 'total_population','2022-09-12');
+INSERT INTO crisisdb_total_population (polity_id, year_from, year_to, total_population, finalized, tag, name, created_date) VALUES (2, 1887, 1887, 400000, True, 'TRS', 'total_population','2022-09-12');

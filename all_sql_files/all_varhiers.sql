@@ -1,0 +1,17 @@
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('agricultural_population', 1, 1, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('arable_land', 1, 1, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('arable_land_per_farmer', 1, 1, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('gross_grain_shared_per_agricultural_population', 1, 1, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('net_grain_shared_per_agricultural_population', 1, 1, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('surplus', 1, 1, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('gdp_per_capita', 1, 1, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('military_expense', 1, 2, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('silver_inflow', 1, 2, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('silver_stock', 1, 2, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('total_population', 2, 3, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('drought_event', 3, 4, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('locust_event', 3, 4, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('socioeconomic_turmoil_event', 3, 4, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('crop_failure_event', 3, 4, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('famine_event', 3, 4, true);
+INSERT INTO core_variablehierarchy (name, section_id, subsection_id, is_verified) VALUES ('disease_outbreak', 3, 4, true);
